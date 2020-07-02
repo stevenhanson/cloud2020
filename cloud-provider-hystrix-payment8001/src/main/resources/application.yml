@@ -9,3 +9,8 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka
+  instance:
+    instance-id: paymenthystrix8001
+    prefer-ip-address: true
+    lease-expiration-duration-in-seconds: 30
+    secure-health-check-url: 30
